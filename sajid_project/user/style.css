@@ -1,0 +1,238 @@
+/*Reset CSS*/
+*{margin:0;padding:0;}
+
+img{width:100%;}
+
+h1,h2,h3,h4,h5,h6,p{margin:0;}
+
+/*body */
+.body{font-family: 'Raleway', sans-serif;background: #E9EBEE;}
+
+/*Common Classes*/
+.fix{overflow:hidden;}
+.float-left{float:left;}
+.float-right{float:right;}
+.padding-zero{padding:0;}
+.container-margin-left{margin-left:65px;}
+.container-padding-right{padding-right:50px;border-right:1px solid #CCCCCC;}
+
+.left-sidebar{padding-right:15px;}
+.custom-col-md-7 {
+	width: 60.333%;
+}
+.custom-col-md-12 {
+	width: 100%;
+}
+.custom-col-md-3 {
+	width: 18%;
+}
+.profile-picture img {
+	padding: 7px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.name h2 {
+	color: #111;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 28px;
+}
+.name h3 {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #90949C;
+}
+.main-menu{}
+#nav{margin:0;padding:0;list-style:none;}
+#nav li{
+	margin:0;
+	padding:0;
+	display:block;
+	
+}
+#nav li a{
+	display:block;
+	text-decoration:none;
+	color:#111;
+	font-size:14px;
+	font-weight:400;
+	padding:5px 10px;
+	border:1px solid #E9EBEE;
+}
+#nav li a:hover, .active{
+	background:#F6F7F9;
+	border:1px solid #DDDFE2;
+}
+.active{
+	font-weight: 600!important;
+}
+
+.short-menu {
+	background: #fff;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+	display: inline-block;
+	margin-bottom:10px;
+	width: 100%;
+}
+.like a, .message {
+	display: inline-block;
+	color: #222;
+	background: #ddd;
+	padding: 3px 16px;
+	border: 1px solid #aaa;
+}
+.like a i {
+	color: #222;
+	margin-right: 5px;
+}
+#call-now {
+	color: #fff;
+	background: #4267B2;
+	padding: 5px 51px;
+}
+.status h3 {
+	background: #F6F7F9;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 7px 15px;
+	border: 1px solid #DDDFE2;
+}
+.status textarea {
+	width: 100%;
+	border: 1px solid #DDDFE2;
+	border-top: 0px solid;
+	background: #fff;
+	color: #111;
+	padding: 5px;
+}
+.post {
+	background: #fff;
+	padding: 7px;
+	border: 1px solid #ddd;
+	border-top: 0px solid;
+	margin-top: -1px;
+}
+.post .text-left input {
+	text-indent: -9999999px;
+	background: url('images/camera.png') no-repeat;
+	width: 40px;
+	display: inline-block;
+	border: 0px solid;
+	margin-right: 10px;
+	height: 32px;
+}
+
+#submit {
+	background: #4267B2;
+	border: 0px solid;
+	color: #fff;
+	font-weight: 600;
+	padding: 4px 20px;
+	font-size: 13px;
+	border-radius: 2px;
+}
+.right-sidebar {
+	background: #fff;
+	padding: 10px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+.right-sidebar h3 {
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.posts {
+	background: #fff;
+	border: 1px solid #DDDFE2;
+	padding: 10px;
+	margin: 10px 0;
+}
+.posts p {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.image-2, .image-3 {
+	width: 24.3%;
+	margin: 10px 0;
+	padding-right: 5px;
+}
+.image-3{
+	padding-right:0px;
+}
+.post_title {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.pp_image {
+	width: 40px;
+	float: left;
+	margin-right: 7px;
+	display: block;
+}
+.pp_image img {
+	border-radius: 50%;
+}
+.PP_title {
+	width: 630px;
+	float: left;
+	display: block;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+.PP_title a{
+	text-decoration:none;
+	border-bottom:2px solid #fff;
+	padding-bottom:1px;
+	display:inline-block;
+	font-size: 16px;
+	color: #4267B2;
+	font-weight: 600;
+}
+.PP_title a:hover{
+	border-bottom:2px solid #4267B2;
+}
+.dropdown {
+	float: left;
+	display: block;
+	width: 30px;
+	text-align: right;
+	margin-top: -10px;
+}
+.btn {
+	display: inline-block;
+	padding: 0px;
+	margin-bottom: 0;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	background: #fff;
+	font-weight: 600;
+	font-size: 26px;
+}
+.dropdown-item {
+	display: block;
+	color: #111;
+	border-bottom: 1px solid #DDDFE2;
+	padding: 5px 11px;
+}
+.edit-image {
+	display: inline-block;
+}

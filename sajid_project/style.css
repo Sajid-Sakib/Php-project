@@ -1,0 +1,73 @@
+*{margin:0;padding:0;}
+.fix{overflow:hidden;}
+
+.body-login {
+  background: #002453 none repeat scroll 0 0;
+}
+.structure{
+	position:relative;
+}
+.login-pannel {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 20px;
+	position: absolute;
+	left: 30%;
+	top: 150px;
+	width: 400px;
+}
+.login-pannel h2 {
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+.login-pannel label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 0;
+  display:block;
+}
+
+.login-pannel input{
+  border: 1px solid #fff;
+  background: #002453 none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  width: 92%;
+}
+
+#button {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  width: 122px;
+  margin-top: 25px;
+}
+#button:hover{background:#FF2B4A;transition:all 0.5s ease-in-out 0s;}
+
+.register p {
+	color: #fff;
+	display: block;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.register a {
+	color: #ff0;
+	display: inline-block;
+	text-decoration: underline;
+}
+.register a:hover{
+	text-decoration:none;
+}
+
