@@ -1,0 +1,90 @@
+*{margin:0;padding:0;}
+body {
+  overflow: visible;
+}
+input, textarea, select, label{margin-bottom:10px;}
+.no-padding{
+	padding:0;
+}
+button{margin-top:10px;}
+
+/*Top menu*/
+.top{
+	background:#333;
+}
+.top-menu > a{
+	color:#fff;
+	background:#333;
+	display:inline-block;
+	padding:10px 20px;
+	text-decoration:none;
+	margin:0;
+}
+.top-menu > a:hover{
+	background:#ddd;
+	color:#111;
+}
+
+.image > img {
+	width: 150px;
+	margin-top: 60px;
+	margin-bottom:30px;
+}
+.menu {
+	position: fixed;
+	height: 100%;
+	background: #000;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+/*Page Content*/
+.page-content{
+	margin-top:30px;
+}
+.view-img{
+	width:100px;
+}

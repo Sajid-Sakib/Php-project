@@ -2,7 +2,7 @@
 	$host_name='localhost';
 	$user_name='root';
 	$password='';
-	$db_name='facebook';
+	$db_name='project';
 	
 	$db_connect=mysqli_connect($host_name,$user_name,$password);
 	if($db_connect) {

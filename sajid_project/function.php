@@ -1,20 +1,19 @@
 <?php
-	session_start();
 	function admin_login_check($data){
+		ob_start();
 		require_once ('db_connect.php');
-		$sql="SELECT * FROM tbl_user WHERE user_id='$data[user_id]' AND password='$data[password]'";
+		$sql="SELECT * FROM tbl_user WHERE user_name='$data[user_name]' AND password='$data[password]'";
 		if(mysqli_query($db_connect,$sql)){
 			$query_result=mysqli_query($db_connect,$sql);
 			$admin_info=mysqli_fetch_assoc($query_result);
 			//echo '<pre>';
 			//print_r($admin_info);
 			if($admin_info){
-				$_SESSION['id']=$admin_info['id'];
 				$_SESSION['user_id']=$admin_info['user_id'];
-				$_SESSION['first_name']=$admin_info['first_name'];
-				$_SESSION['last_name']=$admin_info['last_name'];
+				$_SESSION['name']=$admin_info['name'];
+				$_SESSION['user_name']=$admin_info['user_name'];
 				if($admin_info['user_type']==1){
-					header('Location:user/index.php');
+					header('Location:admin/index.php');
 				}
 			}
 			else{
@@ -28,10 +27,9 @@
 	}
 	
 	function admin_logout(){
-		unset($_SESSION['id']);
 		unset($_SESSION['user_id']);
-		unset($_SESSION['first_name']);
-		unset($_SESSION['last_name']);
+		unset($_SESSION['name']);
+		unset($_SESSION['user_name']);
 		header('Location:../index.php');
 	}
 	
